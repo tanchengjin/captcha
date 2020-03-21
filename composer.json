@@ -1,0 +1,21 @@
+{
+    "name": "tanchengjin/captcha",
+    "description": "php captcha",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tanchengjin",
+            "email": "18865477815@163.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "ext-gd": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "tanchengjin\\captcha\\": "src"
+        }
+    }
+}
