@@ -3,6 +3,12 @@ PHP Captcha
 # Demo
 ![captcha](demo.png)
 
+# 安装
+#### composer
+````composer require tanchengjin/captcha````
+#### github
+````git clone git@github.com:tanchengjin/captcha.git````
+
 
 # 使用 use
 #### 直接使用
