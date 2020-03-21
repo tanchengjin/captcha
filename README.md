@@ -11,10 +11,10 @@ echo new Captcha($w,$h,$num)
 ````
 
 #### 链式方法
-###### 自定义要生成的字符串
+###### 自定义要生成的字符串，如生成纯数字
 ````
 $captcha=new Captcha();
-echo $captcha->setText()->display();
+echo $captcha->setText('0123456789')->display();
 ````
 
 #### 校验
