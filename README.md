@@ -26,6 +26,6 @@ echo $captcha->setText('0123456789')->display();
 #### 校验
 
 ````
-Captcha::check('');
+Captcha::verify('');
 ````
 
