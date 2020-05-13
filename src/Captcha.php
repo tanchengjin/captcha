@@ -40,8 +40,11 @@ class Captcha
 
         $_SESSION[$key]=strtoupper($value);
     }
-    public function verify($code){
-        $this->startSession();
+    public static function verify($code){
+
+        if(!isset($_SESSION)){
+            session_start();
+        }
 
         return strtoupper($code) == $_SESSION['code']?true:false;
     }

@@ -11,7 +11,7 @@ PHP Captcha
 
 
 # 使用 use
-#### 直接使用
+#### 直接显示验证码
 ````
 echo new Captcha($w,$h,$num)
 ````
@@ -26,6 +26,6 @@ echo $captcha->setText('0123456789')->display();
 #### 校验
 
 ````
-$captcha->verify();
+Captcha::check('');
 ````
 
